@@ -1,6 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
 
+#milvus
+/chainlit/docker-milvus/volumes/*
+!/chainlit/docker-milvus/volumes/*.yml
+
+#chainlit.md
+chainlit.md
+
 # OpenAI api key
 .env
 
@@ -8,6 +15,7 @@
 !.chainlit/translations/ko.json
 !.chainlit/translations/en-US.json  
 .chainlit/
+
 
 #sqlite3
 *.db

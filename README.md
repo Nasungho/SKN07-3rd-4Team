@@ -34,7 +34,7 @@
 
 - 프로젝트 목표
 
-    사용자 특성에 맞게 필요한 정보만 제공하는 시스템을 개발하고자 한다.
+    사용자 특성에 맞게 필요한 정보만 제공하는 시스템 (RAG: Retrieval-Augmented Generation model) 을 개발하고자 한다.
  
 # 1. 기술 스택
 **Python 3.11** **Chainlit**
