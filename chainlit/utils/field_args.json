@@ -1,0 +1,10 @@
+{   
+    "MODEL" : "snunlp/KR-SBERT-V40K-klueNLI-augSTS",
+    "COLLECTION_NAME" : "qna",
+    "DIMENSION" : 768,
+    "LIMIT" : 10,
+    "MILVUS_HOST" : "ii578293.iptime.org",
+    "MILVUS_PORT" : "19530",
+    "INDEX_TYPE" : "IVF_FLAT",
+    "EMBEDDING_FIELD_NAME" : "QnA_embeddings"
+}

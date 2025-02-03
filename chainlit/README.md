@@ -6,9 +6,11 @@
 
 - Chainlit
     ```
+    # run chainlit
+    chainlit run app.py -w --host [ip_addr] --port 8501
     ``` 
 
-- Milvus
+- Milvus (vector DB)
     ```
     # Download the configuration file
     $ wget https://github.com/milvus-io/milvus/releases/download/v2.5.4/milvus-standalone-docker-compose.yml -O docker-compose.yml
