@@ -1,6 +1,17 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
 
+# OpenAI api key
+.env
+
+# chainlit
+!.chainlit/translations/ko.json
+!.chainlit/translations/en-US.json  
+.chainlit/
+
+#sqlite3
+*.db
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
