@@ -100,7 +100,9 @@ def load_collection(collection_name: str):
 # doc_search = process_pdfs(PDF_STORAGE_PATH)
 # doc_search = load_pdfs(PDF_STORAGE_PATH)
 
-doc_search = load_collection('csv')
+# doc_search = load_collection('csv')
+doc_search = process_csv(CSV_STORAGE_PATH)
+
 model = ChatOpenAI(model_name="gpt-4", streaming=True)
 
 
