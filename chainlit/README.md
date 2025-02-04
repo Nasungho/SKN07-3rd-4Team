@@ -2,7 +2,13 @@
 
 ## Prerequiste
 
-run `pip install -r requirements.txt`
+- run `pip install -r requirements.txt`
+
+- add openapi key unber `./api/.env`
+    
+    ```
+    OPENAI_API_KEY=...
+    ```
 
 ## Getting started
 
