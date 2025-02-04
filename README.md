@@ -3,7 +3,7 @@
 # 3차 프로젝트
  
 # 1. 팀 소개
-- 팀명: TBD
+- 팀명: `너의 질문은?`
     <table>
     <tr>
         <th>신동익</th>
@@ -12,9 +12,9 @@
         <!-- <th>송문택</th> -->
     </tr>
     <tr>
-        <th>임베딩, DB, RAG, API, UI</th>
+        <th>임베딩, DB (Chroma), RAG, API, UI</th>
         <th>크롤링, 임베딩, DB, RAG, API, UI</th>
-        <th>크롤링, DB</th>
+        <th>크롤링, DB (Milvus, Chroma)</th>
         <!-- <th>role 4.</th> -->
     </tr>
     </table>
