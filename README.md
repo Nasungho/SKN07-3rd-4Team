@@ -38,7 +38,16 @@
     사용자 특성에 맞게 필요한 정보만 빠르게 제공하는 시스템 (RAG: Retrieval-Augmented Generation model) 을 개발하고자 한다.
  
 # 1. 기술 스택
-**Python 3.11** **Chainlit** **Chromadb** **langchain**
+<div>
+<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+<img src="https://a11ybadges.com/badge?logo=openai" alt="OpenAI" width="163" height="28"/>
+<img src="https://img.shields.io/badge/langchain-F7DF1E?style=for-the-badge&logo=langchain&logoColor=black"> <img src="https://github.com/pladata-encore/SKN07-3rd-2Team/blob/main/image/chromadb.jpg" alt="chromadb" width="90" height="40">
+<div>
+</div>
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+<img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
+</div>
 
 ## 주요 프로시저
 
