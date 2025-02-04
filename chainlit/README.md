@@ -1,7 +1,9 @@
 # How to run
 
 ## Prerequiste
- 
+
+run `pip install -r requirements.txt`
+
 ## Getting started
 
 - Chainlit

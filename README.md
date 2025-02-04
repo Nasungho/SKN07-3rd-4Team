@@ -9,13 +9,13 @@
         <th>신동익</th>
         <th>박민혁</th>
         <th>나성호</th>
-        <th>송문택</th>
+        <!-- <th>송문택</th> -->
     </tr>
     <tr>
-        <th>role 1.</th>
-        <th>role 2.</th>
-        <th>role 3.</th>
-        <th>role 4.</th>
+        <th>임베딩, DB, RAG, API, UI</th>
+        <th>크롤링, 임베딩, DB, RAG, API, UI</th>
+        <th>크롤링, DB</th>
+        <!-- <th>role 4.</th> -->
     </tr>
     </table>
  
@@ -37,7 +37,7 @@
     사용자 특성에 맞게 필요한 정보만 제공하는 시스템 (RAG: Retrieval-Augmented Generation model) 을 개발하고자 한다.
  
 # 1. 기술 스택
-**Python 3.11** **Chainlit**
+**Python 3.11** **Chainlit** **Chromadb** **langchain**
 
 ## 주요 프로시저
  
