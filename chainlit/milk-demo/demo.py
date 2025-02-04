@@ -39,6 +39,28 @@ def get_review_content(question, client):
 
     return '\n'.join(answer)
 
+
+# 화장품 리뷰 쿼리
+def get_review_content_price(question, client):
+    # 4. Single vector search
+    query_vector = change_float_vector(get_sentence_embedding(question))[0]
+    res = client.search(
+        collection_name="review_data2",
+        anns_field="review_vector3",
+        data=[query_vector],
+        limit=5, # 최대 3개
+        #search_params={"metric_type": "IP"},
+        output_fields = ['review_varchar3', 'review_product3']
+    )
+    # 리뷰
+    answer = []
+    for hits in res:
+        for hit in hits:
+            print(hit)
+            answer.append(f"상품명 : {hit['entity']['review_product3']} 리뷰 : {hit['entity']['review_varchar3']}")
+
+    return '\n'.join(answer)
+
 def setup_runnable():
     memory = cl.user_session.get("memory")  # type: ConversationBufferMemory
     model = ChatOpenAI(streaming=True)
