@@ -2,8 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
 
 #milvus
-/chainlit/docker-milvus/volumes/*
-!/chainlit/docker-milvus/volumes/*.yml
+/chainlit/docker/milvus/volumes/*
+!/chainlit/docker/milvus/volumes/*.yml
 
 #chainlit.md
 chainlit.md
