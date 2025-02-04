@@ -57,7 +57,7 @@
 ## 수행결과(테스트/시연 페이지)
 
 <table> 
-  <tr><td align="center"><b>Demo 결과</b></td> </tr> <tr> <td> <img src='./asset/demo.png' alt="Chainlit Demo Example" width="300"> </td> </tr> 
+  <tr><td align="center"><b>Demo 결과</b></td> </tr> <tr> <td> <img src='./assets/demo.png' alt="Chainlit Demo Example" width="300"> </td> </tr> 
 </table>
  
 ## 한 줄 회고
